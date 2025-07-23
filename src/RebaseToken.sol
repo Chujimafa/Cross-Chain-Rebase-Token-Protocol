@@ -182,7 +182,7 @@ contract RebaseToken is ERC20, Ownable, AccessControl {
 
     /**
      * @notice this is the number of token that have currently been minted to user,
-     * the number not included any interest that has accured since the last time the user interacted with the protocol 
+     * the number not included any interest that has accured since the last time the user interacted with the protocol
      *
      */
     function principalBalance(address _user) external view returns (uint256) {
